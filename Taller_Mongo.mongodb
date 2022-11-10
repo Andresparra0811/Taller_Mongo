@@ -12,7 +12,7 @@ db.empleados.insertOne(
 );
 //2. Insertar dos documentos en la colección de empleados
 db.empleados.insertMany( [
-  { '_id': 10, 'nombre': 'Andres','Parra': 'Sanchez','Cargo': 'Gerente de Sistemas', 'Nomina': 9750000, 'fechadecontratación ': new Date('2021-06-06T20:20:13Z'),'estado':true, "empresa": {"_id": ObjectId(14)}  },
+  { '_id': 10, 'nombre': 'Andres','apellido': 'Parra','Cargo': 'Gerente de Sistemas', 'Nomina': 9750000, 'fechadecontratación ': new Date('2021-06-06T20:20:13Z'),'estado':true, "empresa": {"_id": ObjectId(14)}  },
   { '_id': 11, 'nombre': 'Camilo','apellido': 'Godoy','Cargo': 'Gerente Marketing', 'Nomina': 6750000, 'fechadecontratación ': new Date('2019-02-06T20:20:13Z'),'estado':true, "empresa": {"_id": ObjectId(11)}  },
 ]);
 
