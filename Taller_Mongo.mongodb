@@ -8,7 +8,7 @@ use(database);
 //Actividad:
 //1. Insertar un documento en la colección de empleados
 db.empleados.insertOne(
-  { '_id': 9, 'nombre': 'William','apellido': 'Sanchez','Cargo': 'Gerente General', 'Nomina': 50000, 'fechadecontratación ': new Date('2022-02-06T20:20:13Z'),'estado':true, "empresa": {"_id": ObjectId(11)}  },
+  { '_id': 9, 'nombre': 'Daniel','apellido': 'Rodriguez','Cargo': 'Jefe de desarrollo', 'Nomina': 50000, 'fechadecontratación ': new Date('2022-02-06T20:20:13Z'),'estado':true, "empresa": {"_id": ObjectId(11)}  },
 );
 //2. Insertar dos documentos en la colección de empleados
 db.empleados.insertMany( [
